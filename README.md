@@ -17,6 +17,8 @@ To implement socket programming date and time display from client to server usin
 7.Close all streams.
 8.Close the server socket.
 9.Stop.
+</br>
+
 ## Client:
 </br>
 1.Create a client socket and connect it to the server‟s port number.
@@ -26,6 +28,8 @@ To implement socket programming date and time display from client to server usin
 5.Close the input and output streams.
 6.Close the client socket.
 7.Stop.
+</br>
+
 ### PROGRAM :
 ## Client:
 ```
