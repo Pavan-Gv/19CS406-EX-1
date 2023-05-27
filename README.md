@@ -17,9 +17,8 @@ To implement socket programming date and time display from client to server usin
 7.Close all streams.
 8.Close the server socket.
 9.Stop.
-```
 ## Client:
-```
+</br>
 1.Create a client socket and connect it to the server‟s port number.
 2.Retrieve its own IP address using built-in function.
 3.Send its address to the server.
