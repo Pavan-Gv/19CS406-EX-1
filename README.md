@@ -1,12 +1,11 @@
-# 19CS406-EX-1 STUDY OF SOCKET PROGRAMMING WITH CLIENT-SERVER MODEL
+## 19CS406-EX-1 STUDY OF SOCKET PROGRAMMING WITH CLIENT-SERVER MODEL
 ~~~
 DATE : 09-03-2023
 ~~~
 ### AIM :
 To implement socket programming date and time display from client to server using TCPSockets.
-
 ### ALGORITHM :
-## Server:
+#### Server:
 ```
 1.Create a server socket and bind it to port.
 2.Listen for new connection and when a connection arrives, accept it.
@@ -18,7 +17,7 @@ To implement socket programming date and time display from client to server usin
 8.Close the server socket.
 9.Stop.
 ```
-## Client:
+#### Client:
 ```
 1.Create a client socket and connect it to the server‟s port number.
 2.Retrieve its own IP address using built-in function.
@@ -29,7 +28,7 @@ To implement socket programming date and time display from client to server usin
 7.Stop.
 ```
 ### PROGRAM :
-## Client:
+#### Client:
 ```
 Developed By: G Venkata Pavan Kumar
 Reg No: 212221240013
@@ -49,7 +48,7 @@ if ack:
     print(ack)
     c.close()
 ```
-### Server:
+#### Server:
 ```
 Developed By: G Venkata Pavan Kumar
 Reg No: 212221240013
@@ -62,21 +61,12 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
-
-
-
 ### OUTPUT:
-
-## Client:
-
+#### Client:
 ![E1](https://github.com/Pavan-Gv/19CS406-EX-1/assets/94827772/8d8eb110-1497-475f-beec-86c17530d95e)
-
-## Server:
-
+#### Server:
 ![E2](https://github.com/Pavan-Gv/19CS406-EX-1/assets/94827772/63d1233f-326e-4313-956e-ee08d098658d)
-
 ### RESULT:
-
 Thus, the program to implement socket programming date and time display from client to server using TCP Sockets was successfully executed.
 
 
