@@ -62,7 +62,10 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
-
+</br>
+</br>
+</br>
+</br>
 ### OUTPUT:
 ## Client:
 ![E1](https://github.com/Pavan-Gv/19CS406-EX-1/assets/94827772/8d8eb110-1497-475f-beec-86c17530d95e)
