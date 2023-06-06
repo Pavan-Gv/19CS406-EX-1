@@ -50,10 +50,6 @@ if ack:
 ```
 #### Server:
 ```
-Developed By: G Venkata Pavan Kumar
-Reg No: 212221240013
-```
-```
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
